@@ -1,0 +1,102 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;}
+
+.navbar-inverse.navbar-fixed-top {
+	height: 70px;
+}
+
+.navbar-collapse {
+	background-color: #101010;
+}
+
+footer {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: #101010;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../Images/Blocks.jpg');
+	opacity: 0.9;
+	color: white;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+	font-family: 'Bree Serif', serif;
+	text-shadow: 5px 5px 7px #101010;
+
+}
+
+.jumbotron h1 {
+		font-size: 80px;
+}
+
+.homepage {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.homepage h2 {
+	color: #e74c3c;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-transform: uppercase;
+}
+
+.homepage p {
+		font-family: 'Bree Serif', serif;
+	
+}
+
+.homepage hr {
+	border-top: 1px solid#101010;
+	width: 300px;
+	margin-top: 15px;
+}
+
+#Fields-Of-Expertise {
+	background-color: #f5f5f5;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+/* Responsive Media */
+
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 65px;
+		margin-bottom: 30px;
+	}
+
+ }
+
+ @media (max-width: 768px) {
+
+	.jumbotron h1 {
+		font-size: 45px;
+		margin-bottom: 30px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+	} 
+	
+
+ }
